@@ -21,7 +21,9 @@ data = (
     ("Magic Angle [Formula]","acos(1/sqrt(3))*(180/acos(-1))"),
     ("Magic Angle Complement [Formula]","90-(acos(1/sqrt(3))*(180/acos(-1)))"),
     ("Golden Ratio","1.618034"),
-    ("Golden Ratio [Formula]","(1+sqrt(5))/2")
+    ("Golden Ratio [Formula]","(1+sqrt(5))/2"),
+    ("Bezier Circle Handle","0.5522847498307933"),
+    ("Bezier Circle Handle [Formula]", "(4/3)*tan(pi/8)")
 )
 class MAGICNUMBERS_MT_top_menu(bpy.types.Menu):
     bl_label = "Magic Numbers"
